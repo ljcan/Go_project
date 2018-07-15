@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 /**
-	go语言指针不同于C语言，指针不能进行运算
+  go语言指针不同于C语言，指针不能进行运算，因此没有c语言指针那么复杂
  */
 func testPoint(){
 	var a int=2
