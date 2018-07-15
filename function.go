@@ -11,7 +11,7 @@ func div(a int,b int) (resoult int,err string){
 	}
 }
 /**
-	函数作为参数传递给函数，函数式编程
+   函数作为参数传递给函数，函数式编程
  */
  func sum(op func(a int,b int) int,a int,b int) int{
  	return op(a,b)
