@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 /**
-	数组是值类型
+	数组是值类型，因此函数中不会改变外面数组的内容
  */
 func printArray(arr [3]int){
 	arr[0]=100
